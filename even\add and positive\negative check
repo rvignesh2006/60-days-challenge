@@ -1,15 +1,16 @@
 import java.util.*;
-publc class Main
+publc class Main{
 public static void main(String[] args)
 {
 Scanner s = new Scanner(System.in);
 int num = s.nextInt();
 if(num%2==0)
 {
-System.out.prnint("even");
+System.out.prnintln("even");
 }
 else
 {
-System.out.println("odd")
+System.out.println("odd");
+}
 }
 }
